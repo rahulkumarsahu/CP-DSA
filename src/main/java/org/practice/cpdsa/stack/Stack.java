@@ -4,6 +4,7 @@ package org.practice.cpdsa.stack;
 // Implementing the undo in any application
 // Implementing the back button in web browser
 // Holding the memory for recursive calls in a programming language
+// LIFO
 public class Stack<T> {
 
     private static final int MAX_SIZE = 40;
