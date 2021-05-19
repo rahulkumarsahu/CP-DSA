@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.sorting;
 
 //select the first element and compare with others if min found then swap
 //select the second element ...

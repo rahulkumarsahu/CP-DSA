@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.sorting;
 
 //compare the adjacent element if value is minimum than swap
 // again we will compare the adjacent element from starting
@@ -16,8 +16,9 @@ public class BubbleSort {
                     Helper.swap(listToSort, j, j - 1);
                     swapped = true;
                 }
+                Helper.print(listToSort);
             }
-            Helper.print(listToSort);
+            //Helper.print(listToSort);
             if(!swapped){
                 break;
             }
