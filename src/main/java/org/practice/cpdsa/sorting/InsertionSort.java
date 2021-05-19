@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.sorting;
 
 
 //Complexity O(N^2)

@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.sorting;
 
 // complexity O(N^3/2)
 public class ShellSort {
