@@ -9,5 +9,8 @@
         <module name="cp_dsa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cp_dsa" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
