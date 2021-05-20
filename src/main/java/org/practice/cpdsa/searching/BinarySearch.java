@@ -1,5 +1,5 @@
-package org.practice.cpdsa.sorting;
-
+package org.practice.cpdsa.searching;
+// O(logN)
 public class BinarySearch {
 
     public static void main(String[] args) {
