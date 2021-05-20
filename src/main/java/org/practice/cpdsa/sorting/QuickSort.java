@@ -46,7 +46,7 @@ public class QuickSort {
                 Helper.swap(listToSort, start, end);
             }
         }
-
+        // after crossing start and end point swap with pivot to end pointer because it will be lesser
         Helper.swap(listToSort, lb, end);
 
         return end;
