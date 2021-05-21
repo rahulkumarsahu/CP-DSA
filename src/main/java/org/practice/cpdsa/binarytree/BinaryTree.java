@@ -114,4 +114,5 @@ public class BinaryTree {
         return isBST(root.getLeftChild(), min, root.getData()) && isBST(root.getRightChild(), root.getData(), max);
 
     }
+
 }

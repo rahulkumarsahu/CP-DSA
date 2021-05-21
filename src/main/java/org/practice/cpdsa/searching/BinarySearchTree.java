@@ -49,4 +49,18 @@ public class BinarySearchTree {
         return minValue(head.getLeftChild());
     }
 
+    /**
+     * sum = 27 found in which path?
+     */
+    private static Boolean hasPathSum(Node<Integer> root, int sum) {
+
+        // here we will subtract node data from sum if sum == 0 we found the path and break
+        if(root == null) {
+            return (sum == 0);
+        } else {
+            // here we will subtract the data and recursive call the method
+            int subSum = sum - root.getData();
+            return (hasPathSum(root.getLeftChild(), subSum) || hasPathSum(root.getRightChild(), subSum));
+        }
+    }
 }
