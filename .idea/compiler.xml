@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cp_dsa" />
+        <module name="CP-DSA" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CP-DSA" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
