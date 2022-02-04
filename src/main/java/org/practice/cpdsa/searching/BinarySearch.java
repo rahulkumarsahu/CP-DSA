@@ -3,34 +3,36 @@ package org.practice.cpdsa.searching;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] sortedList = new int[]{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        int numberToSearch = 7;
-        int index = binarySearch(sortedList, numberToSearch);
+        int[] sortedArray = new int[]{ 1, 2, 3, 4, 5 };
+        int numberToSearch = 5;
+        int index = binarySearch(sortedArray, numberToSearch);
         System.out.println(index);
     }
 
-    private static int binarySearch(int[] sortedList, int numberToSearch) {
+    private static int binarySearch(int[] sortedArray, int target) {
+        // array index start from 0 and end index will be one less than length;
+        int startIndex = 0;
+        int endIndex = sortedArray.length - 1;
 
-        int min = 0;
-        int max = sortedList.length - 1;
-    // continue till min is <= max
-        while(min <= max) {
-            // find the mid of the sorted array.
-            int mid = min + (max-min) / 2;
+        // continue till startIndex is <= endIndex
+        while (startIndex <= endIndex) {
+            // to find the mid-value
+            int midIndex = startIndex + (endIndex - startIndex) / 2;
             //found in a middle element
-            if(sortedList[mid] == numberToSearch) {
-                return mid;
-            }else if(sortedList[mid] > numberToSearch) {
-                // if mid element is > then reduce max because it will be in left side
-                max = mid - 1;
+            if(sortedArray[midIndex] == target) {
+                return midIndex;
+            } else if (sortedArray[midIndex] < target) {
+                // if mid-element is < then increase min because it will be in right side
+                startIndex = midIndex + 1;
             } else {
-                // if mid element is < then increase min because it will be in right side
-                min = mid + 1;
+                // if mid-element is > then reduce max because it will be in left side
+                endIndex = midIndex - 1;
             }
 
         }
 
         return -1;
+
     }
 
 }
