@@ -14,7 +14,6 @@ public class BinarySearchApplication {
         int precision = 3;
         double floatingValue = findPrecisionOfSqrt(target, precision, sqrt);
         System.out.println("The sqrt of target is floating value :- " + floatingValue);
-        /**
         int[] nums = new int[]{5, 7, 7, 8, 8, 9};
         int[] output = firstAndLastPosition( nums, target);
         System.out.println("The first and last index are :- " + output[0] + " , " + output[1]);
@@ -28,7 +27,7 @@ public class BinarySearchApplication {
         System.out.println("The Pivot Element is :- " + pivotElement);
         int index = search(array, target);
         System.out.println("The index of Element is :- " + index);
-         **/
+
 
     }
 
