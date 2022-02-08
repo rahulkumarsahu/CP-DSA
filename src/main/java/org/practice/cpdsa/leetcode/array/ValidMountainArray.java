@@ -1,4 +1,4 @@
-package org.practice.cpdsa.leetcode;
+package org.practice.cpdsa.leetcode.array;
 
 import java.util.Scanner;
 

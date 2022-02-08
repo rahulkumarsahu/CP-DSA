@@ -1,6 +1,4 @@
-package org.practice.cpdsa.searching;
-
-import org.practice.cpdsa.binarytree.Node;
+package org.practice.cpdsa.binarytree;
 
 // O(logN)
 // worst O(N)
