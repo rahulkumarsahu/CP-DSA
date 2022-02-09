@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.OptionalInt;
 
 //https://www.codingninjas.com/codestudio/problem-details/allocate-books_1090540
+//https://www.codingninjas.com/codestudio/problems/painter-s-partition-problem_1089557
 public class BookAllocationProblem {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{10, 20, 30, 40};
+        int[] arr = new int[]{1, 2, 3, 4};
         int numberOfStudent = 2;
         // boolean status = isPossibleSolution(arr, 75, numberOfStudent);
         int output = bookPartition(arr, numberOfStudent);
