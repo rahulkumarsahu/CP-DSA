@@ -1,4 +1,4 @@
-package org.practice.cpdsa.leetcode.binary_search;
+package org.practice.cpdsa.leetcode.binary_search.application;
 
 import java.util.Arrays;
 import java.util.OptionalInt;

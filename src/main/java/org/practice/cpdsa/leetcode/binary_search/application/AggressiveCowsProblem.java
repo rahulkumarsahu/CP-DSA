@@ -1,4 +1,4 @@
-package org.practice.cpdsa.leetcode.binary_search;
+package org.practice.cpdsa.leetcode.binary_search.application;
 
 import java.util.Arrays;
 import java.util.OptionalInt;
@@ -43,9 +43,15 @@ public class AggressiveCowsProblem {
     }
 
     private static boolean isPossibleSolution(int[] arr, int midIndex, int numberOfCows) {
+        // here starting point will be 0 always
         int startPoint = arr[0];
+        // maintain counter to check number of cows assigned
         int counter = 1;
         for(int i = 1; i < arr.length; i++) {
+            // considering midIndex as max distance
+            // if diff of arr[i] - start point >= midIndex that means we got one position for cow for considered maximum distance as midIndex
+            // once we got distance C2 got placed then we will search place for C3, so we have to update the start point to C2 position
+            // and after that if we find the position for C3 also it's a possible solution else return false
             if(Math.abs(arr[i] - startPoint) >= midIndex) {
                         counter++;
                         startPoint = arr[i];
