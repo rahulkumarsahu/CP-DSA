@@ -9,7 +9,7 @@ public class FindPeekOfMountain {
     }
 
     /**
-     *From the input we can easily figure out few points
+     * From the input we can easily figure out few points
      * the array has two parts one is increasing 5,6,7,8,9 and another array is decreasing 3,2,1
      * first one follows arr[mid] < arr[mid+1] and second one follows arr[mid] > arr[mid+1]
      * so we have to find peak or max element, so obviously we have to figure out increasing part and search on that
