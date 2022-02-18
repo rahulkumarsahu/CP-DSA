@@ -1,5 +1,5 @@
 package org.practice.cpdsa.leetcode.array;
-
+// O(N)
 public class FloydsTriangle {
 
     // Find the duplicate number floyd cycle. leetcode
