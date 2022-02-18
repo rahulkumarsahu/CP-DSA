@@ -23,7 +23,7 @@ public class RotateImage {
                 arr[j][i] = temp;
             }
         }
-
+         // N^2 + N^2
         // this is to reverse the matrix...
         for(int i = 0; i < arr.length; i++) {
             // here to reverse initialize the constants because it will start from 0 and run till length - 1;
