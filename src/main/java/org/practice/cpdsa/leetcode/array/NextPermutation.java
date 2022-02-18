@@ -3,7 +3,7 @@ package org.practice.cpdsa.leetcode.array;
 import org.practice.cpdsa.sorting.Helper;
 
 import java.util.Arrays;
-
+// O(N)
 public class NextPermutation {
 
     public static void main(String[] args) {
