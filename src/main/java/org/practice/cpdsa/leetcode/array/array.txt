@@ -1,0 +1,58 @@
+1. reverse array will be solved from two pointer algorithm.
+
+2. Find Max and Min from array in less time complexity :-
+   a. take two variable max and min
+   b. compare in pair i and i + 1 and after getting the max and min from pairs and then compare from above two variables and update.
+
+3. Kth max and Kth min :-
+   a. solve from heap when you learn
+
+
+4. Union and Intersection :-
+   a. for union just use set and add both array element
+   b. for intersection introduce one hash set to store the duplicate
+   c. initially i = 0: j = 0, run loop from i < m and j < n
+   d. if a[i] < b[j] increase i++; sorted to if i less than we will do i++ because it is possible next value will be equal.
+   e. else if a[i] > b[j] increase j++
+   f. if equal then increase both i++, j++
+
+5. rotate the array by one left or right :-
+   a. temp = value
+   b. then rotate from end to start and swap
+   c. and put temp to 0 or end based on shift.
+
+6. Minimise the maximum difference between heights
+
+7. Minimum Number of Jumps
+
+8. find all pairs whose sum is equal to given number :-
+   a. using HashMap
+
+9. find common element from 3 sorted array
+   a. same as intersection one from above
+   b. a[i] < b[j] i++, b[j] < c[k] j++, k++
+   c while i,j,k < m,n,o
+   d. if == all 3  and if duplicate exist then while loop and check == and i,j,k++
+
+10. Rearranging the array negative and positive
+    a. make all negative half side and positive half side and iterate by 2 and swap
+    b. even and odd swap try...
+
+11. Find if there is any sub array with sum equal to 0
+    a. so here we will take sum = 0, and we will store all sum in hash set and if we find the current sum is == previous sum then return true
+
+12. Factorial of a large number :-
+    a. array or linked list to store the digit of array.
+
+13. Find maximum from sub array
+    a. ???
+
+14. longest consecutive subsequence :- O(N)
+    a. will store all value from array to set.
+    b. now loop will start from i = 0, then we will check a[i] - 1 exist in set if yes then neglect the value and move further because it will come anyway in subsequence in next line
+    c. if you not found - 1 value in the array then from that point count the sub array by adding one and checking existence in set
+    d. store max subsequence and do i++;
+
+15.  Find whether an array is subset of another array :-
+     a. apply binary search pick one array and search n(logN)
+

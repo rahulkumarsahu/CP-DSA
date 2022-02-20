@@ -46,7 +46,7 @@ public class MooseVotingAlgorithm {
     // this algorithm says that maintain majorityElement
     // when count == 0 then assign the majorityElement to arr[i]
     // increase votingCount when arr[i] matches the majorityElement
-    // decrease the majority element when it does not matches
+    // decrease the majority element when it does not match
     private static int majorityElement(int[] arr) {
 
         int majorityElement = 0;
