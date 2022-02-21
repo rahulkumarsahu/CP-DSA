@@ -22,10 +22,14 @@ public class MinimumRotation {
         int[] topArray = new int[6];
         int[] bottomArray = new int[6];
 
+        for(int i = 0; i < topArray.length; i++) {
+            topArray[tops[i] - 1]++;
+            bottomArray[bottoms[i] - 1]++;
+        }
         // N
-        for(Integer top : tops)  topArray[top - 1]++;
+       // for(Integer top : tops)  topArray[top - 1]++;
          // N
-        for(Integer bottom : bottoms) bottomArray[bottom - 1]++;
+       // for(Integer bottom : bottoms) bottomArray[bottom - 1]++;
 
 
         for(int i = 0; i < 6; i++) {

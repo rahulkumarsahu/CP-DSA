@@ -56,3 +56,21 @@
 15.  Find whether an array is subset of another array :-
      a. apply binary search pick one array and search n(logN)
 
+16.  Chocolate Distribution problem :-
+     a. sort the array
+     b. put i = 0 and j = M and increase by 1 and find difference and take minimum value as output.
+
+17.  Partitioning of array around given value
+     a. solve using 0,1,2 algorithm
+
+18. Smallest Sub array with sum more than given value
+    minimum swap to bring good elements together
+    minimum number of swap to array make palindrome
+
+19. Median of two sorted array :-
+    // {3,5,8,10,24,36,79,255}
+    a. Merge two sorted array
+    b. even -> 10 + 24 / 2
+    c. odd -> mid will be median
+    d. or follow counter approach.
+

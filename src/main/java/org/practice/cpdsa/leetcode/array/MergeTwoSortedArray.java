@@ -22,7 +22,7 @@ public class MergeTwoSortedArray {
     }
     // here we will find gap from length and swap gap elements
     // here j - n taking and i - n taking for second array because it starts from 0 and
-    // here one time 4 , 2, 1 gap will be there and if we increase in inner loop i and j by 1 then gap will be maintain
+    // here one time 4 , 2, 1 gap will be there and if we increase in inner loop i and j by 1 then gap will be maintained
     // as j already point to gap and write acc. to j
     private static void mergeTwoSortedArrayGAP(int[] oneSortedArray, int[] twoSortedArray, int n, int m) {
 
