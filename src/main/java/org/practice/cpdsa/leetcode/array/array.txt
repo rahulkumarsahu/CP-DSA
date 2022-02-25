@@ -76,7 +76,10 @@
 
 20. Count Occurrences of Anagrams :-
 
-
+21. Check whether a string is a valid shuffle of two strings or not
+    a. s1 -> xy, s2 -> 12 -> res -> X1Y2 is valid string, X21Y is not valid order change
+    b. loop res length, here check if str[i] == s1(increment pointer i for s1) or s2 (increment pointer j for s2) then
+       if both not found then break loop and return NO.
 
 
 
