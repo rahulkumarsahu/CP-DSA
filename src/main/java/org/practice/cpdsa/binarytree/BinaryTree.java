@@ -8,7 +8,7 @@ public class BinaryTree {
             return 0;
         }
 
-        // they are leaf node return 0 these problem has 2 base cases
+        // they are leaf node return 0 this problem has 2 base cases
         if(head.getLeftChild() == null && head.getRightChild() == null) {
             return 0;
         }
@@ -114,5 +114,4 @@ public class BinaryTree {
         return isBST(root.getLeftChild(), min, root.getData()) && isBST(root.getRightChild(), root.getData(), max);
 
     }
-
 }
