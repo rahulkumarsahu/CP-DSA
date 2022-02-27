@@ -1,7 +1,7 @@
 package org.practice.cpdsa.stack;
 
 //space complexity O(N)
-// Implementing the undo in any application
+// Implementing to undo in any application
 // Implementing the back button in web browser
 // Holding the memory for recursive calls in a programming language
 // LIFO

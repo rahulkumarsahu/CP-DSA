@@ -3,6 +3,7 @@ package org.practice.cpdsa.stack;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 
 //complexity O(N)
@@ -30,7 +31,7 @@ public class MatchingParenthesis {
               // this is to check if closing bracket is present then pop the bracket from stack
               if(matchingParenMap.containsKey(ch)){
                  Character lastParen = stack.pop();
-                 if(matchingParenMap.get(ch) != lastParen){
+                 if(!Objects.equals(matchingParenMap.get(ch), lastParen)){
                      return false;
                  }
               }
@@ -47,6 +48,6 @@ public class MatchingParenthesis {
     }
 
     public static void main(String[] args) {
-        System.out.println(hasMatchingParenthesis("(ABC{D[EF]})"));
+        System.out.println(hasMatchingParenthesis("(ABC){D[EF]})"));
     }
 }

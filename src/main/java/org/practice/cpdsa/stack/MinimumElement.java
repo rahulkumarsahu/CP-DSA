@@ -5,12 +5,12 @@ public class MinimumElement {
 
     // using of two stack is because of pop if someone pop the value then one variable will not work because we
     // will not have any previous data. space complexity will be more.
-    private Stack<Integer> stack = new Stack<>();
-    private Stack<Integer> minStack = new Stack<>();
+    private final Stack<Integer> stack = new Stack<>();
+    private final Stack<Integer> minStack = new Stack<>();
 
     // if first value then data will be minimum or else
-    // if data is greater then previous minStack value will be store at the top in minStack or else
-    // if data is smaller then data will be store at the top in minStack
+    // if data is greater than previous minStack value will be store at the top in minStack or else
+    // if data is smaller than data will be store at the top in minStack
     public void push(int data) throws StackOverFlowException, StackUnderFlowException {
         int min = data;
         if(!minStack.isEmpty() && min > minStack.peek()){

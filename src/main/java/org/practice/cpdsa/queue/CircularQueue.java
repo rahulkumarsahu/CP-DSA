@@ -7,7 +7,7 @@ public class CircularQueue<T> {
 
     private static final int SPECIAL_EMPTY_VALUE = -1;
     private static final int MAX_SIZE = 40;
-    private T[] elements;
+    private final T[] elements;
 
     private int headIndex = SPECIAL_EMPTY_VALUE;
     private int tailIndex = SPECIAL_EMPTY_VALUE;
