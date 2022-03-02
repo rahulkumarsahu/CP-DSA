@@ -50,11 +50,11 @@ public class BinaryTree {
      * Important Question need to understand clearly -> Code from Internet
      * for given number of nodes how many types of tree are possible
      * if numNodes = 3
-     *      A                          A
+     *      A-                          A
      *     |                            \
      *    B   -> similarly mirror ->     B -> mirror ->      A
      *   /                              /                  /   \
-     *  C                              C                  B     C
+     *  C-                              C                  B     C
      * so total = 2 + 2 + 1 = 5
      */
     public static int countTrees(int numNodes) {
@@ -62,7 +62,11 @@ public class BinaryTree {
         if(numNodes <=1) {
             return 1;
         }
-
+        // here we are considering if num nodes count is <= 1 return one as possible answer
+        // we will consider every node as root node
+        // so recursion will work according to processed and unprocessed logic
+        // so will check possible from i to its left child
+        // and will check possible from i to num node - i
         int sum = 0;
         for(int i = 1; i <= numNodes; i++) {
             int countLeftSubTrees = countTrees(i - 1);
