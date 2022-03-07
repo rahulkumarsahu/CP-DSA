@@ -1,4 +1,4 @@
-package org.practice.cpdsa.leetcode.array;
+package org.practice.cpdsa.leetcode.google;
 
 import java.util.HashMap;
 import java.util.Map;

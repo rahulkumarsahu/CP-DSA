@@ -32,4 +32,7 @@ public class MinimumElement {
     public int getMinimum() throws StackUnderFlowException {
         return minStack.peek();
     }
+
+    // O(1) space -> 2 * currentElement - min = push into stack
+    // O(1) space -> 2 * min - currentElement = pop into stack
 }
