@@ -61,10 +61,6 @@ k
 ;src/main/java/org/practice/cpdsa/leetcode/array/TwoSum.java,c\9\c98fe7844a43a2f1f6bc06aa2aa259e5190bad37
 s
 Csrc/main/java/org/practice/cpdsa/leetcode/array/FloydsTriangle.java,6\e\6e28f56a44bfc12e1dcce092262bc6c27d9df33e
-Ž
-^src/main/java/org/practice/cpdsa/leetcode/binary_search/application/BookAllocationProblem.java,8\9\89934d3abd7a653a03b9409f7aa4dfc7c998698b
-u
-Esrc/main/java/org/practice/cpdsa/leetcode/array/SmallestSubArray.java,b\c\bcf46d40d63025d5cfd62335e38783b5bace599b
 x
 Hsrc/main/java/org/practice/cpdsa/leetcode/array/MergeTwoSortedArray.java,2\3\23971044969a2d69d6705699a69588b06fee355f
 i
@@ -139,8 +135,6 @@ Isrc/main/java/org/practice/cpdsa/leetcode/stack/MaximumAreaHistogram.java,9\d\
 Qsrc/main/java/org/practice/cpdsa/leetcode/stack/MaxAreaRectangleBinaryMatrix.java,7\9\798f59a918cdccb0f88ef7d042565906bdfc3778
 a
 1src/main/java/org/practice/cpdsa/queue/Queue.java,b\4\b4147aa88483455961e78b7bc3830b21266e4754
-y
-Isrc/main/java/org/practice/cpdsa/leetcode/array/MaximumSumOfSubArray.java,3\9\39b2e026ad3ece2bce4648e92c425d0c90f2c64f
 u
 Esrc/main/java/org/practice/cpdsa/leetcode/google/MinimumRotation.java,d\2\d203fd6005b9ca95f2b182c8ff7ab0d990f98dc6
 t
