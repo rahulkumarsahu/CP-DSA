@@ -5,6 +5,7 @@ import java.util.*;
 public class MaximumSumOfSubArray {
 
     public static void main(String[] args) {
+        /**
         int[] arr = new int[]{2,5,1,8,2,9,1};
         int[] arr2 = new int[]{12, -1, -7, 8, -15, 30, 18, 28};
         int[] arr1 = new int[]{1, 3, -1, -3, 5, 3, 6, 7};
@@ -17,11 +18,11 @@ public class MaximumSumOfSubArray {
         // Longest Substring With Without Repeating Characters
         int data = longestSubStringWithUniqueCharacter();
         System.out.println(data);
-
-        int out = longestSubString("aacaccabce", 3);
+**/
+        int out = longestSubString("aaabb", 3);
         System.out.println(out);
-        int subString = minimumWindowSubstring("time to practice", "toc");
-        System.out.println(subString);
+      //  int subString = minimumWindowSubstring("time to practice", "toc");
+      //  System.out.println(subString);
     }
 
     private static int minimumWindowSubstring(String string, String target) {
