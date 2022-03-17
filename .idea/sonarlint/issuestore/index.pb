@@ -39,8 +39,6 @@ q
 Asrc/main/java/org/practice/cpdsa/leetcode/array/ReversePairs.java,4\b\4bfc5627fffda6c5763406b4284d43c2d43c1706
 {
 Ksrc/main/java/org/practice/cpdsa/leetcode/array/MissingAndRepeatNumber.java,1\1\11dadc79dac33b065234852f41dca74e2a2da4ef
-f
-6src/main/java/org/practice/cpdsa/heaps/KthMaximum.java,9\b\9b80f7a762c16a7b8f492b72bfed9609c11697a9
 t
 Dsrc/main/java/org/practice/cpdsa/leetcode/array/NextPermutation.java,d\6\d6362ac32d4b2fb849a050a9985a5c413397f361
 s
@@ -67,8 +65,6 @@ x
 Hsrc/main/java/org/practice/cpdsa/leetcode/strings/LongestPalindrome.java,6\8\68260cbc90b5cc905d00adcfedcae01e6aec1fae
 
 Osrc/main/java/org/practice/cpdsa/leetcode/recursion/RecursionUnderstanding.java,3\1\31de27e7bb31a18cb5a6e08244799ebc6a3bd10f
-`
-0src/main/java/org/practice/cpdsa/heaps/Heap.java,5\9\59880898eb96987cdc2ea943a02d7ab0fdc5efa9
 r
 Bsrc/main/java/org/practice/cpdsa/queue/QueueOverFlowException.java,9\0\907a627d41ddc1adb37cc57ea41a2a722c451809
 s
@@ -85,16 +81,10 @@ i
 9src/main/java/org/practice/cpdsa/queue/CircularQueue.java,9\2\923cb26d1bf89854ceae0d622baf5fde4211e262
 r
 Bsrc/main/java/org/practice/cpdsa/binarytree/PreOrderTraversal.java,8\4\84543c41faac18817264d7be3e327538565e4b26
-e
-5src/main/java/org/practice/cpdsa/binarytree/Node.java,b\9\b978d28a6eff8dbaab5f501866795c7bd9e0dc8d
-k
-;src/main/java/org/practice/cpdsa/binarytree/BinaryTree.java,5\6\56ef140a916683510fde87f1c9b6998871f2fd4c
 o
 ?src/main/java/org/practice/cpdsa/stack/MatchingParenthesis.java,f\e\fec2840bdf3bb3be55e9f3858a91b0e60fd1c437
 t
 Dsrc/main/java/org/practice/cpdsa/leetcode/stack/StackUsingQueue.java,6\b\6b3e8c2b9efa8400b1ddd2d34dcfcf4edbedd24a
-q
-Asrc/main/java/org/practice/cpdsa/binarytree/BinarySearchTree.java,c\9\c9c677b2fe6272fec6ecc7f7d08e83353dddc458
 {
 Ksrc/main/java/org/practice/cpdsa/leetcode/stack/NextSmallerElementLeft.java,9\a\9a1b12da550a2d16698a62e37d5039b3c618fffc
 |

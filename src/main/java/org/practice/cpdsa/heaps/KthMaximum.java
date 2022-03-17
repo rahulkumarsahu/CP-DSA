@@ -19,7 +19,7 @@ public class KthMaximum {
     }
 
     public static int getKthMaximum(MinHeap<Integer> minHeap) {
-       
+
         return 0;
     }
 }

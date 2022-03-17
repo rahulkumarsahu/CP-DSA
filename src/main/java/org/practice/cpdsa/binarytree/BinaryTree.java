@@ -118,4 +118,27 @@ public class BinaryTree {
         return isBST(root.getLeftChild(), min, root.getData()) && isBST(root.getRightChild(), root.getData(), max);
 
     }
+
+    public static int kthSmallest(Node<Integer> root, int k, int i) {
+        // if it reaches root so will return -1
+        if(root == null) {
+            return -1;
+        }
+        // minimum we will get left side
+        int left = kthSmallest(root.getLeftChild(), k, i);
+
+        // if we will get left != -1 that means it is answered
+        if(left != -1) return left;
+        // increase i++;
+        i++;
+        if(i == k) {
+            return root.getData();
+        }
+
+        return kthSmallest(root.getRightChild(), k, i);
+
+
+
+
+    }
 }
