@@ -3,15 +3,58 @@ package org.practice.cpdsa.leetcode.array;
 public class BuyAndSellStock {
 
     public static void main(String[] args) {
-        int[] arr = new int[] {7, 1, 3, 5, 6, 4};
+        int[] arr = new int[] {7, 1, 5, 3, 6, 4};
+
         int data = maxProfit(arr);
         // here maintain the min value and find maximum while going forward.
         int output = maxProfitOptimal(arr);
+
+        /**
+         * one way is maintained minimum price from right to left min price = price[0]
+         * create one array with the max (temp[i - 1], diff of i - [i - 1] {minPrice = min(price[i], minPrice)}: prerequisite temp[0] = 0;
+         * same process as above in reverse way...
+         * maxPrice = prices[n - 1]; secondTemp[n - 1] = 0;
+         * for i = n - 2 i >= 0; i++
+         *  max (temp[i + 1], diff of maxPrice - price[i] {maxPrice = max(price[i], minPrice)}:
+         *  take prefix[i] + suffix[i] max
+         *
+         *  here what we are doing is iterated left to right and introduce prefix array and in that initially ot will be 0
+         *  start from 1 index and do i - (i - 1), prev value maximum from prefix update min price
+         *  we got max for 1st transaction at last index
+         *  then
+         *  iterate from last and find out the max(max price - price[i], suffix) from last and update max price
+         *
+         *  take prefix[i] and suffix[i + 1]
+         *
+         * https://www.youtube.com/watch?v=q2l8PmZy1P0
+         */
         int maxOutput = maxProfitForTwoSellAndBuy(arr);
-        System.out.println(output);
-        System.out.println(data);
+
+        int result = maxNTransactionSellAndBuy(arr);
+       System.out.println(output);
+       System.out.println(data);
         System.out.println(maxOutput);
+        System.out.println(result);
     }
+
+    private static int maxNTransactionSellAndBuy(int[] arr) {
+
+        // here we have to find local minima once we got the lowest value we will Buy and
+        // when we will get local maxima then we will Sell
+        // and as many as transaction we can make
+        // so there is a trick instead of finding local minima and maxima
+        // we can do is if i > i - 1 then take diff and sum because we can take any number of transaction
+        int profit = 0;
+        for(int i = 1; i < arr.length; i++) {
+
+            if(arr[i] > arr[i - 1]) {
+                profit += arr[i] - arr[i - 1];
+            }
+        }
+
+        return profit;
+    }
+
 
     private static int maxProfitForTwoSellAndBuy(int[] arr) {
         // this is the temp array to store the max profit

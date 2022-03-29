@@ -53,7 +53,7 @@ public class KnapsackApplication {
 
     private static int targetSum(int[] value, int sum, int[][] t) {
         // here this problem is similar to countSubsetGivenDifference value = 1, 1, 2, 3
-        // because +1 +3 = s1, -2 -1 = s2
+        // because +1 +3 = s1, -2 -1 = -s2
         // s1 - s2 = diff
         // same as above
         return 0;
@@ -70,7 +70,7 @@ public class KnapsackApplication {
         return 0;
 
     }
-
+    // need clarity
     private static int minimumSubsetSumDifference(int[] value, int[][] t) {
 
         // here we are taking range = sum of all value so min will be 0 and max will be sum

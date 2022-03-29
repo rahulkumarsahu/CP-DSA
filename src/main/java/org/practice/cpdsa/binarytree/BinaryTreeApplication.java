@@ -388,4 +388,10 @@ public class BinaryTreeApplication {
     // vertical traversal
     // sum of non-adjacent nodes..
 
+
+    // is sum tree? -> so node.left one method call to get left sum
+    //                    node.right one method call to get right sum
+    //                    data = ls + rs; return true
+    // node == null return 0; else return node.data + sum(node.left) + sum(node.right);
+
 }

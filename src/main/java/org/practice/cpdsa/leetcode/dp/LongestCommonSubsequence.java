@@ -172,7 +172,7 @@ public class LongestCommonSubsequence {
 
     private static Integer minimumNumberOfInsertionAndDeletionToConvertAStringIntoB(String x, String y, int n, int m, int[][] t) {
     // heap -> pea
-    // find lcs -> "ea"
+    // find lcsubstring -> "ea"
     // number of deletion = a.length - lcs.length
     // number of insertion = b.length - lcs
     // deletion + insertion
