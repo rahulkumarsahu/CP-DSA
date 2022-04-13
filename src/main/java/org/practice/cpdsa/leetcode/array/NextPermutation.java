@@ -39,4 +39,10 @@ public class NextPermutation {
         Arrays.sort(input, j != 0 ? j - 1 : 0, input.length);
 
     }
+
+    // Next Permutation bola hai to :-
+    // find the i index from the last of the input where i < i + 1
+    // find the j index from the last where i > j
+    // swap
+    // sort the array from i to j index
 }

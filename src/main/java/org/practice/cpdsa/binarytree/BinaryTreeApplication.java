@@ -30,7 +30,7 @@ public class BinaryTreeApplication {
 
         int left = getDiameterOfBinaryTree(root.getLeftChild());
         int right = getDiameterOfBinaryTree(root.getRightChild());
-        int leftAndRight = getHeightOfBinaryTree(root.getLeftChild()) + getHeightOfBinaryTree(root.getRightChild()) + 1;
+        int leftAndRight = getHeightOfBinaryTree(root.getLeftChild()) + getHeightOfBinaryTree(root.getRightChild());
 
         return Math.max(left, Math.max(right, leftAndRight));
     }

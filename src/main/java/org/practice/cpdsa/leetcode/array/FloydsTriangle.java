@@ -1,11 +1,14 @@
 package org.practice.cpdsa.leetcode.array;
 // O(N)
+// https://www.youtube.com/watch?v=wjYnzkAhcNk
 public class FloydsTriangle {
 
     // Find the duplicate number floyd cycle. leetcode
     // constraint values will always be in range of [1, length] if N = 4 then possible values are 1 2 3 2
     public static void main(String[] args) {
+        // observation :- here we have 1 to n values so length will be 1 to n + 1 because of duplicate number
         int[] arr = new int[]{2,5,9,6,9,3,8,9,7,1};
+        // consider as a index a pointer it will never point 0 because input 1 to n
         int output = findDuplicate(arr);
         System.out.println(output);
     }

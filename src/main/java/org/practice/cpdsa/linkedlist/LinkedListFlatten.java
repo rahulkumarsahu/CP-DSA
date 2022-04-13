@@ -88,9 +88,9 @@ public class LinkedListFlatten {
 
     public static void main(String[] args) {
 
-        NodeData root = null;
+        NodeData root;
         Linked a = new Linked();
-        root = a.insert(root, 20);
+        root = a.insert(null, 20);
         root = a.insert(root, 22);
         root = a.insert(root, 25);
         root = a.insert(root, 65);

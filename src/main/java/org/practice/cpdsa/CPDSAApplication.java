@@ -1,9 +1,18 @@
 package org.practice.cpdsa;
-
 public class CPDSAApplication {
 
     public static void main( String[] args ) {
-       System.console();
+        String s = "abaab";
+
+        char[] ch = s.toCharArray();
+        char ch1 = ch[0];
+        char ch2 = ch[1];
+        int count = 0;
+        for(int i = 2; i < ch.length; i++) {
+            if(i % 2 == 0 && ch[i] != ch1) count++;
+            if(i % 2 != 0 && ch[i] != ch2) count++;
+        }
+        System.out.println(count);
     }
 
     // Time Complexity for Data Structure :-
@@ -16,4 +25,6 @@ public class CPDSAApplication {
     // if we have two loops one inside another with m and n size then O(NM)
     // if one loop is running n times and inside that loop is running n/2 times then O(N*N/2) = O(N^2) division of 2 does not matter.
     // if any loop is increasing by 2 then it will be o(logN)
+
+
 }

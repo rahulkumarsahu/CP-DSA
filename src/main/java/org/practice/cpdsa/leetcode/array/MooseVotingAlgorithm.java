@@ -1,13 +1,13 @@
 package org.practice.cpdsa.leetcode.array;
 
 import java.util.Arrays;
-
+// https://www.youtube.com/watch?v=NgLeC7DeWn4
 public class MooseVotingAlgorithm {
 
     public static void main(String[] args) {
         int[] arr = new int[]{7, 7, 5, 7, 5, 1, 5, 7, 5, 5, 7, 7, 5, 5, 5, 5};
         // N/2 -> only one majority
-        int output = majorityElement(arr);
+        int output = majorityElement(arr, arr.length);
         // N/3 -> only two majority element
         int[] data = majorityElementTwo(arr);
         System.out.println(output);
@@ -47,22 +47,40 @@ public class MooseVotingAlgorithm {
     // when count == 0 then assign the majorityElement to arr[i]
     // increase votingCount when arr[i] matches the majorityElement
     // decrease the majority element when it does not match
-    private static int majorityElement(int[] arr) {
+    private static int majorityElement(int[] arr, int n) {
+        // 1st step
+        int majorityElementIndex = 0;
+        int votingCount = 1;
 
-        int majorityElement = 0;
-        int votingCount = 0;
+        for (int i = 0; i < arr.length; i++) {
 
-        for (int data : arr) {
-            if (votingCount == 0) {
-                majorityElement = data;
-            }
-            if (data == majorityElement) {
+            if (arr[majorityElementIndex] == arr[i]) {
                 votingCount++;
             } else {
                 votingCount--;
             }
+
+            if (votingCount == 0) {
+                votingCount = 1;
+                majorityElementIndex = i;
+            }
+
         }
 
-        return majorityElement;
+        votingCount = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[majorityElementIndex] == arr[i]) {
+                votingCount++;
+            }
+        }
+
+        if(votingCount <= n/2) {
+            return -1;
+        } else {
+            return arr[majorityElementIndex];
+        }
+
     }
 }

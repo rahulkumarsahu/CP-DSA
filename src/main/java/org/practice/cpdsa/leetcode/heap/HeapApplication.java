@@ -9,6 +9,9 @@ public class HeapApplication {
         KthSmallestElement(new int[]{}, 5);
         KthLargestElement(new int[]{}, 5);
 
+        //PriorityQueue minHeap=new PriorityQueue();
+        //PriorityQueue maxHeap=new PriorityQueue(5, new MyComparator());
+
     }
 
     private static void KthLargestElement(int[] input, int k) {
