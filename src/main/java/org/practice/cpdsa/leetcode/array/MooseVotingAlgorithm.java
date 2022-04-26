@@ -69,9 +69,9 @@ public class MooseVotingAlgorithm {
 
         votingCount = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int data : arr) {
 
-            if (arr[majorityElementIndex] == arr[i]) {
+            if (arr[majorityElementIndex] == data) {
                 votingCount++;
             }
         }

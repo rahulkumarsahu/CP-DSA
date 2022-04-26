@@ -138,6 +138,7 @@ public class KnapsackApplication {
         // base condition of recursive -> will be changed in initialization for top-down approach
         // think for smaller possible input n = 0 (length of array), k = 0 answer? -> true
         // if n = 0 , k = 2 answer? -> false
+        // here n = i and k = j
         for(int i = 0; i < n + 1; i++) {
             for(int j = 0; j < k + 1; j++) {
                 if(i == 0) {
@@ -253,4 +254,6 @@ public class KnapsackApplication {
             return 0;
         }
     }
+
+
 }

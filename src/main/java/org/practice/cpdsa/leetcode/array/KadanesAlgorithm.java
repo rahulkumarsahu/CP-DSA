@@ -7,7 +7,7 @@ public class KadanesAlgorithm {
         int output = maximumSum(arr, arr.length);
         System.out.println(output);
     }
-    // Kadanes algorithm says basically when we have -ve sum or sum < 0 then make sum = 0 and update result whenever we have output < sum update result
+    // Kadane's algorithm says basically when we have -ve sum or sum < 0 then make sum = 0 and update result whenever we have output < sum update result
     // and maintain the max output variable
     private static int maximumSum(int[] arr, int length) {
         int sum = 0;

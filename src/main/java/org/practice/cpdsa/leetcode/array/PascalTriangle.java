@@ -12,10 +12,11 @@ public class PascalTriangle {
             for(int space = row; space > i; space--) {
                 System.out.print(" ");
             }
+
             int num = 1;
 
             for(int j = 0; j <= i; j++) {
-                System.out.print(num+ " ");
+                System.out.print(num + " ");
                 num = num * ( i - j ) / ( j + 1 );
             }
             System.out.print("\n");

@@ -15,6 +15,8 @@ public class LRUCache {
             this.key = key;
             this.value = value;
         }
+
+
     }
 
     Node head = new Node(0, 0);

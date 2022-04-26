@@ -1,5 +1,7 @@
 package org.practice.cpdsa.binarytree;
 
+import java.util.Stack;
+
 // O(logN)
 // worst O(N)
 public class BinarySearchTree {
@@ -60,5 +62,32 @@ public class BinarySearchTree {
             int subSum = sum - root.getData();
             return (hasPathSum(root.getLeftChild(), subSum) || hasPathSum(root.getRightChild(), subSum));
         }
+    }
+
+    static int count = 0;
+    static int sum = 0;
+    public static Integer kSmallestElement(Node<Integer> root, int k) {
+
+        Stack<Node<Integer>> st = new Stack<>();
+        // In BST the smallest element will be in left side so add all in stack of left side only
+        while (root != null) {
+            st.push(root);
+            root = root.getLeftChild();
+        }
+
+        while (k != 0) {
+
+            Node<Integer> n = st.pop();
+            k--;
+            if (k == 0) return n.getData();
+            // again push the right element till end
+            Node<Integer> right = n.getRightChild();
+            while (right != null) {
+                st.push(right);
+                right = right.getLeftChild();
+            }
+        }
+
+        return -1;
     }
 }

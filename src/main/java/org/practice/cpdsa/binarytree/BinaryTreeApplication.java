@@ -345,6 +345,7 @@ public class BinaryTreeApplication {
 
         }
 
+
         sum = sum + root.getData();
 
         maximumSumOfLongestPath(root.getLeftChild(), sum, maxSum, length + 1, maxLength);

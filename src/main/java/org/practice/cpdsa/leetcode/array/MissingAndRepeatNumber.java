@@ -29,10 +29,13 @@ public class MissingAndRepeatNumber {
                 System.out.println("Repeating = " + i);
             }
         }
+
         for (int i = 1; i <= max; i++) {
+
             if (numberMap.get(i) == null) {
                 System.out.println("Missing = " + i);
             }
+
         }
 
     }

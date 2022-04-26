@@ -240,7 +240,7 @@ public class LongestCommonSubsequence {
                 if(x.charAt(i - 1) == y.charAt(j - 1)) {
 
                     // we got one common character
-                    t[i][j] = 1 + longestCommonSubsequence(x, y, i - 1, j - 1);
+                    t[i][j] = 1 + t[i - 1][j - 1];
 
                 } else {
                     // here two choices if it does not match then consider from one
@@ -273,15 +273,14 @@ public class LongestCommonSubsequence {
                 if(x.charAt(i - 1) == y.charAt(j - 1)) {
 
                     // we got one common character
-                    t[i][j] = 1 + longestCommonSubsequence(x, y, i - 1, j - 1);
+                    t[i][j] = 1 + t[i - 1][j - 1];
 
                 } else {
                     // here two choices if it does not match then consider from one
                     // and in second consider from second and take maximum from them
                     // from input h != r, but it can be possible in other index that is why
 
-                    t[i][j] =  Math.max(longestCommonSubsequence(x, y, i, j - 1),
-                            longestCommonSubsequence(x, y, i - 1,  j));
+                    t[i][j] =  Math.max(t[i][j - 1], t[i - 1][j]);
                 }
             }
         }

@@ -2,16 +2,85 @@ package org.practice.cpdsa;
 
 import org.practice.cpdsa.sorting.Helper;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Testing {
 
     public static void main(String[] args) {
-
+        /**
         int[] output = maxSubsequence(new int[]{-1,-2,3,4}, 3);
         Helper.print(output);
+         **/
+        List<int[]> output = getAllPossibleCombination(new int[]{1, 3, 2, -1, 4, 1, 7, 1}, 4);
+
+        output.forEach(key -> {
+            System.out.println(key[0] + " " + key[1]);
+        });
+
+
+    }
+
+    static int findSubarraySum(int arr[], int n, int sum) {
+
+        HashMap<Integer, Integer> prevSum = new HashMap<>();
+        prevSum.put(0,1);
+
+        int res = 0;
+
+        int currSum = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            currSum += arr[i];
+            //calculate the sum that have to be removed
+            //so that we can get the desired sum
+
+            int removeSum = currSum - sum;
+
+            //get count of occurrences of that sum that
+            //have to removed and add it to res value
+            if (prevSum.containsKey(removeSum))
+                res += prevSum.get(removeSum);
+
+            // Add current sum value to count of
+            // different values of sum.
+            prevSum.put(currSum, prevSum.getOrDefault(currSum,0) + 1);
+        }
+
+        return res;
+    }
+
+    private static List<int[]> getAllPossibleCombination(int[] arr, int sum) {
+
+
+        int i = 0;
+        int j = 0;
+
+        int length = arr.length;
+        List<int[]> outputList = new ArrayList<>();
+        int data = 0;
+
+        while( j < length) {
+
+            data += arr[j];
+
+            if(data == sum) {
+                outputList.add(new int[]{i, j});
+            } else if(data > sum) {
+
+                while(i < j) {
+                    data -= arr[i];
+                    i++;
+                    if(data == sum) {
+                        outputList.add(new int[]{i, j});
+                    }
+                }
+            }
+
+            j++;
+        }
+
+        return outputList;
 
     }
 

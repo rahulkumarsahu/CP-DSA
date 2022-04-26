@@ -11,9 +11,10 @@ public class UnboundedKnapsack {
 
     public static void main(String[] args) {
 
-        int[][] t = new int[101][101];
-        Arrays.stream(t).forEach(a -> Arrays.fill(t, -0));
+        int[][] t = new int[5][12];
+        //Arrays.stream(t).forEach(a -> Arrays.fill(t, -0));
 
+        /**
         int result = unboundedKnapsackTopDownApproach(new int[]{2, 3, 7, 8, 10}, new int[]{}, 5, 5, t);
         System.out.println(result);
 
@@ -27,8 +28,8 @@ public class UnboundedKnapsack {
 
         int coinChangeMaximum = coinChangeProblemMaximumNumberOfWays(new int[]{}, 5, 8, t1);
         System.out.println(coinChangeMaximum);
-
-        int coinChangeMinimum = coinChangeProblemMinimumNumberOfWays(new int[]{}, 5, 8, t1);
+        **/
+        int coinChangeMinimum = coinChangeProblemMinimumNumberOfWays(new int[]{9, 6, 5, 1}, 4, 11, t);
         System.out.println(coinChangeMinimum);
     }
 
@@ -153,6 +154,7 @@ public class UnboundedKnapsack {
                 // replacing n with i and w with j....
                 if(weight[i - 1] <= j) {
                     t[i][j] = max(value[i - 1] + t[i][j - weight[i - 1]], t[i - 1][j]);
+               //   t[i][j] = max(value[i - 1] + t[i - 1][j - weight[i - 1]], t[i - 1][j]);
                 } else if(weight[i - 1] > j) {
                     t[i][j] = t[i - 1][j];
                 } else {
