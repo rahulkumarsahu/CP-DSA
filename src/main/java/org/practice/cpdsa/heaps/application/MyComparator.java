@@ -1,4 +1,4 @@
-package org.practice.cpdsa.leetcode.heap;
+package org.practice.cpdsa.heaps.application;
 
 public class MyComparator implements java.util.Comparator<Integer> {
 
