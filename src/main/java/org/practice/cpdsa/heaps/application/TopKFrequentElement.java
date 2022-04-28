@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.PriorityQueue;
 
+//Find k numbers with most occurrences in the given array
 public class TopKFrequentElement {
 
     public static void main(String[] args) {
