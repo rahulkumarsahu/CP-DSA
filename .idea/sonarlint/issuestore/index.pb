@@ -57,8 +57,6 @@ p
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 f
 6src/main/java/org/practice/cpdsa/heaps/KthMaximum.java,9\b\9b80f7a762c16a7b8f492b72bfed9609c11697a9
-`
-0src/main/java/org/practice/cpdsa/heaps/Heap.java,5\9\59880898eb96987cdc2ea943a02d7ab0fdc5efa9
 c
 3src/main/java/org/practice/cpdsa/heaps/MinHeap.java,8\4\846844c76815ca6bf64276cdcc075713e7f00845
 {
@@ -75,8 +73,6 @@ n
 >src/main/java/org/practice/cpdsa/leetcode/array/MergeSort.java,8\2\823d8e5a80a2c93c198505497f49e38285e5e5da
 
 Osrc/main/java/org/practice/cpdsa/leetcode/array/DutchNationalFlagAlgorithm.java,6\e\6e8b4cedc918e7263cff665530e8cb1ee73456b2
-s
-Csrc/main/java/org/practice/cpdsa/leetcode/array/FloydsTriangle.java,6\e\6e28f56a44bfc12e1dcce092262bc6c27d9df33e
 s
 Csrc/main/java/org/practice/cpdsa/leetcode/array/MergeIntervals.java,3\6\361446187413f9bd0c9220501f7e768fb92fa0e0
 x

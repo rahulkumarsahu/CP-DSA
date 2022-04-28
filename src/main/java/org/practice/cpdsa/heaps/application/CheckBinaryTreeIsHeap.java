@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // Check if a given Binary Tree is Heap
-public class CheckIsHeap {
+public class CheckBinaryTreeIsHeap {
 
     /**
      * perform level order traversal...
