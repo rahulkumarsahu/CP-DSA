@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.array.imp;
 
 import java.util.Arrays;
 // https://www.youtube.com/watch?v=NgLeC7DeWn4

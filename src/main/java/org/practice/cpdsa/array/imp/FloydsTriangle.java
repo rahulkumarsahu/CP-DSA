@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.array.imp;
 // O(N)
 // https://www.youtube.com/watch?v=wjYnzkAhcNk
 public class FloydsTriangle {
