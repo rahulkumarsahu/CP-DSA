@@ -31,8 +31,6 @@ o
 ?src/main/java/org/practice/cpdsa/stack/MatchingParenthesis.java,f\e\fec2840bdf3bb3be55e9f3858a91b0e60fd1c437
 m
 =src/main/java/org/practice/cpdsa/leetcode/stack/LFUCache.java,d\a\da0e1dec60389920944c33d67ecfbdff5a13362f
-Z
-*src/main/java/org/practice/cpdsa/notes.txt,c\c\cc41c40babaad73652e2fa2cdda7bb6cb7c67cb8
 m
 =src/main/java/org/practice/cpdsa/stack/RedundantBrackets.java,7\d\7d0efdce084c87fc64754beffe97cc0d5899efa6
 b
@@ -91,8 +89,6 @@ p
 @src/main/java/org/practice/cpdsa/leetcode/array/UniquePaths.java,b\0\b02d07a799fbfc90439b882b0930583b68f83fd5
 w
 Gsrc/main/java/org/practice/cpdsa/leetcode/array/ThirdMaximumNumber.java,0\3\03958e3e0c104583027cc7e00388c730236ed916
-á
-Wsrc/main/java/org/practice/cpdsa/leetcode/binary_search/application/BeautifulArray.java,a\e\ae255dfa37c16fdce2c8dc366461552429e00f9f
 è
 _src/main/java/org/practice/cpdsa/leetcode/binary_search/application/FindOccurrenceOfTarget.java,4\3\43ebb0d037cf4630f874566d29a998d0ba10651c
 ã
@@ -159,8 +155,6 @@ q
 Asrc/main/java/org/practice/cpdsa/binarytree/BinarySearchTree.java,c\9\c9c677b2fe6272fec6ecc7f7d08e83353dddc458
 k
 ;src/main/java/org/practice/cpdsa/binarytree/BinaryTree.java,5\6\56ef140a916683510fde87f1c9b6998871f2fd4c
-k
-;src/main/java/org/practice/cpdsa/leetcode/AmazonKindle.java,c\a\ca73c7f12191da2e353ae780432bf0564b81b36e
 r
 Bsrc/main/java/org/practice/cpdsa/binarytree/PreOrderTraversal.java,8\4\84543c41faac18817264d7be3e327538565e4b26
 q
@@ -169,8 +163,6 @@ s
 Csrc/main/java/org/practice/cpdsa/binarytree/PostOrderTraversal.java,5\4\5490435c1f262513645b228f2b00ed8e6886cfed
 v
 Fsrc/main/java/org/practice/cpdsa/leetcode/array/TrappingRainWater.java,2\3\236cf4ee60d8d09e718390a13db6e343276d5c5e
-|
-Lsrc/main/java/org/practice/cpdsa/leetcode/array/MinimumPlatformRequired.java,3\0\30562e905db7ca9cb69e0bb7930ef5364f2da7b5
 u
 Esrc/main/java/org/practice/cpdsa/leetcode/array/KadanesAlgorithm.java,d\e\de009cf72670d5555b885886543e2b6f48478bd2
 v
@@ -187,7 +179,3 @@ w
 Gsrc/main/java/org/practice/cpdsa/leetcode/array/FractionalKnapsack.java,3\4\342f07560ef4c204f04add3da741ef165ea4ba9b
 u
 Esrc/main/java/org/practice/cpdsa/leetcode/stack/CelebrityProblem.java,4\0\40c81bdaf8a4731837b4a75d8d10e3ff28c63f9b
-]
--src/main/java/org/practice/cpdsa/Testing.java,c\c\cc8634431d90dd7a8f9a6f3dec6e75766133392b
-|
-Lsrc/main/java/org/practice/cpdsa/leetcode/MinimumNumberCountToMakeEqual.java,2\8\28f3b9177c441d7c60e864d37be95bbdc3982913
