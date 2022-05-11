@@ -57,8 +57,6 @@ v
 Fsrc/main/java/org/practice/cpdsa/binarytree/BinaryTreeApplication.java,4\7\47e5cf368db1a5a98ab88a765b2e21a49663325b
 v
 Fsrc/main/java/org/practice/cpdsa/binarytree/BreadthFirstTraversal.java,f\9\f9a64659fd8cad41ffcf04c806682b857df339ca
-ä
-Zsrc/main/java/org/practice/cpdsa/binary_search/application/MatrixSortedArraySearching.java,b\8\b844e231a4a13f49ec3f2ffc23808d5a24fa9a8d
 j
 :src/main/java/org/practice/cpdsa/dp/UnboundedKnapsack.java,c\8\c8e06274a640a4bf10f74faff5e854967f6abdce
 a
@@ -99,8 +97,6 @@ Psrc/main/java/org/practice/cpdsa/heaps/application/MaximumMinimumDifference.jav
 Ksrc/main/java/org/practice/cpdsa/heaps/application/TopKFrequentElement.java,7\e\7eb67d52666c8dcabb1d750f3a3fe9c7c2c8404c
 s
 Csrc/main/java/org/practice/cpdsa/heaps/application/KMaximumSum.java,5\9\593fe8a8e442c2842edfe74771cd68a83d64ced9
-~
-Nsrc/main/java/org/practice/cpdsa/binary_search/application/BeautifulArray.java,a\2\a2544ddfa8b1420fd2b37953e8402a7788549790
 w
 Gsrc/main/java/org/practice/cpdsa/array/imp/MinimumPlatformRequired.java,b\f\bfbb69c22c0c28789d4d3792f1d27a583145ca4a
 j
@@ -141,3 +137,17 @@ Msrc/main/java/org/practice/cpdsa/array/slidingwindow/FirstNegativeNumber.java,
 Ssrc/main/java/org/practice/cpdsa/array/slidingwindow/CountOccurrencesOfAnagram.java,b\9\b9c10bb7c530439dc0f5243a23f469c4f2b591b7
 ~
 Nsrc/main/java/org/practice/cpdsa/binary_search/application/FindSquareRoot.java,c\1\c1725d61c9b204a2ad09c0b6075987da685efbff
+Ä
+Psrc/main/java/org/practice/cpdsa/binary_search/application/FindPivotElement.java,a\5\a5c560a468afc393c0f5135949777620cb3252dd
+Ç
+Rsrc/main/java/org/practice/cpdsa/binary_search/application/SearchRotatedArray.java,2\a\2a1a5d9a3f6841129dcc32da952e1a3d3d76eb71
+s
+Csrc/main/java/org/practice/cpdsa/binary_search/application/help.txt,1\0\10909a8b471d8e7f899abca496874b913d94483b
+É
+Ssrc/main/java/org/practice/cpdsa/binary_search/application/FindTransitionPoint.java,d\5\d57d83cf09e2d93570a94d275157c80ef2be010c
+É
+Ssrc/main/java/org/practice/cpdsa/binary_search/application/MaximumNumberOf1Row.java,d\a\da072d2b49379eab47881ab5a9d33c0d3e6d5f06
+Å
+Qsrc/main/java/org/practice/cpdsa/binary_search/application/MinimumDifference.java,a\2\a251f053daaf2cc5a7a46592724d021e3045c476
+Å
+Qsrc/main/java/org/practice/cpdsa/binary_search/application/NearlySortedArray.java,f\5\f54b4afb7825d3c2d61f5d0c613a5a3aec28c72d

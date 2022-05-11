@@ -7,13 +7,14 @@ public class AggressiveCowsProblem {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[]{0, 3, 4, 7, 10, 9};
-        int numberOfCows = 3;
+        int[] arr = new int[]{4,2,1,3,6};
+        int numberOfCows = 2;
         int output = aggressiveCows(arr, numberOfCows);
         System.out.println("The Output is :- " + output);
     }
 
     private static int aggressiveCows(int[] arr, int numberOfCows) {
+        Arrays.sort(arr);
         // this is min value of search space
         int startIndex = 0;
         // this is max value of search space, and it will be max - min 0 value from array
