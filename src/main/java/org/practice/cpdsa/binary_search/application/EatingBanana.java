@@ -14,13 +14,12 @@ public class EatingBanana {
         Arrays.sort(arr);
         int low = arr[0];
         int high = arr[arr.length - 1];
-        int sum = Arrays.stream(arr).sum();
 
         while (low <= high) {
 
             int mid = (low + high) / 2;
 
-            if(isPossibleSolution(hours, sum, mid)) {
+            if(isPossibleSolution(arr, hours, mid)) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
@@ -30,8 +29,16 @@ public class EatingBanana {
         return low;
     }
 
-    private static boolean isPossibleSolution(int hours, int sum, int mid) {
+    private static boolean isPossibleSolution(int[] arr, int hours, int mid) {
 
-        return hours * mid >= sum;
+        int speed = 0;
+
+        for(int i : arr){
+            speed += i / mid;
+            if(i % mid != 0) speed++;
+        }
+
+        //if speed is less than the given h hours, We need to increase Speed,to increase speed we need to select lower value between low ---- > mid-1 as mid;
+        return speed <= hours;
     }
 }
