@@ -17,9 +17,10 @@ public class Heaters {
      * 1 4
      * Output
      * 1 2 5 7
-     * 0 1 1 3
+     * (min (1-1, 4 - 1) -> 0) similarly ->  1 1 3
      * 1 4
      * 3
+     *
      */
     public static void main(String[] args) {
 
@@ -32,11 +33,13 @@ public class Heaters {
     }
 
     private static Integer getMaxRadiusOfHeater(int[] house, int houseCount, int[] heater, int heaterCount) {
-
+        // to capture maximum distance required
         int maxRadius = 0;
 
         for(int i = 0; i < houseCount; i++) {
+            // we will consider the minimum distance between nearest two heaters
             int output = getNearestHeaterRadius(house[i], heater, heaterCount);
+            // return maximum
             maxRadius = Math.max(maxRadius, output);
         }
 

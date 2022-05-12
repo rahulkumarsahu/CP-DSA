@@ -17,12 +17,8 @@ public class AggressiveCowsProblem {
         Arrays.sort(arr);
         // this is min value of search space
         int startIndex = 0;
-        // this is max value of search space, and it will be max - min 0 value from array
-        OptionalInt maxValue = Arrays.stream(arr).max();
-        int endIndex =  -1;
-        if(maxValue.isPresent()) {
-            endIndex = maxValue.getAsInt();
-        }
+        int endIndex =  arr[arr.length - 1];
+
         // output
         int output = -1;
 
