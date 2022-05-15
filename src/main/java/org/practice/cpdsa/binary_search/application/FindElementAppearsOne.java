@@ -13,47 +13,40 @@ public class FindElementAppearsOne {
     /**
      *
      */
-    private static Integer findElementAppearsOne(int[] arr) {
+    private static Integer findElementAppearsOne(int[] a) {
 
         // handling corner cases
-        if(arr.length == 0) return -1;
-        else if(arr.length == 1) return arr[0];
-        else if(arr[0] != arr[1]) return arr[0];
-        else if(arr[arr.length - 1] != arr[arr.length - 2]) return arr[arr.length - 1];
+        if(a.length == 0) return -1;
+        else if(a.length == 1) return a[0];
 
-        // other elements check already so no need to check.
-        int low = 2;
-        int high = arr.length - 3;
-
-
-        while(low <= high) {
-
-             // here one analysis all values come 2 times so one repeated will in even and one repeated will be in odd
-            // so if we are in even position then its pair will be on odd and if it is odd then its pair will be in even
-
-            // calculate mid element
-            int mid = (low + high) / 2;
-
-            // if mid-element is appeared only once then it should follow this two condition mid - 1 != mid && mid + 1 != mid
-            if(arr[mid] != arr[mid - 1] && arr[mid] != arr[mid + 1]) {
-                return arr[mid];
-            } else if(mid % 2 != 0) {
-                // if it is odd, and then it is previous one should be paired
-                if(arr[mid] == arr[mid - 1]) {
-                    low = mid + 1; // -> move right side because if we are in odd that means we have even numbers of element and if previous one is equal that means all are two times
-                } else {
-                    high = mid - 1; // -> else ......
-                }
-            } else {
-                // if it is even, and then it is next one should be paired
-                if(arr[mid] == arr[mid + 1]) {
-                    low = mid + 1;
-                } else {
-                    high = mid - 1;
-                }
-            }
+        //corner cases where unique element will be at the start or end
+        if(a[0] != a[1]) {
+            return a[0];
+        }
+        if(a[a.length-1] != a[a.length-2]){
+            return a[a.length-1];
         }
 
+        int l=0;
+        int h = a.length-1;
+
+        while(l <= h){
+            int m = (l + h) / 2;
+
+            //when unique element is in between
+            if(a[m] != a[m-1] && a[m] != a[m+1]){
+                return a[m];
+            }
+            //if unique element is not crossed,
+            //a 'm' is odd, then prev element will always be same
+            //b 'm' is even, then next element will always be same
+            if((m % 2 == 1 && a[m] == a[m-1]) || (m % 2 == 0 && a[m] == a[m+1])){
+                l = m + 1;
+            }else{
+                h = m - 1;
+            }
+        }
+        //if all elements occur twice
         return -1;
     }
 }
