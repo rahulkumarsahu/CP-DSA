@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array.imp;
+package org.practice.cpdsa.array.important;
 
 public class TrappingRainWater {
 

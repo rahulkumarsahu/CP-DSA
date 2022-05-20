@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array.imp;
+package org.practice.cpdsa.array.important;
 
 //https://www.geeksforgeeks.org/equilibrium-index-of-an-array/
 public class EquilibriumPoint {

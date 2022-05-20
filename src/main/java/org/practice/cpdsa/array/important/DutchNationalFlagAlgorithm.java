@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array.imp;
+package org.practice.cpdsa.array.important;
 
 import java.util.Arrays;
 //O(N)

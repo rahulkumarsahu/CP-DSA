@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array.imp;
+package org.practice.cpdsa.array.important;
 
 //https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately-1587115620/1
 public class RearrangeArray {

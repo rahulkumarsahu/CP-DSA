@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array.imp;
+package org.practice.cpdsa.array.important;
 
 //https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
 public class ChocolateDistributionProblem {
