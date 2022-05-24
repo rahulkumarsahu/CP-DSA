@@ -159,3 +159,11 @@ Usrc/main/java/org/practice/cpdsa/binary_search/application/FindElementAppearsOn
 Zsrc/main/java/org/practice/cpdsa/binary_search/application/MatrixSortedArraySearching.java,b\8\b844e231a4a13f49ec3f2ffc23808d5a24fa9a8d
 |
 Lsrc/main/java/org/practice/cpdsa/binary_search/application/EatingBanana.java,5\9\5952be0a262b04889c6d6980ec5e0394a831b919
+€
+Psrc/main/java/org/practice/cpdsa/array/miscellaneous/ContainerWithMostWater.java,e\6\e690998a0b7014ff5430d023d3c158772ac936f2
+l
+<src/main/java/org/practice/cpdsa/array/important/TwoSum.java,3\3\33a1070b7bf4eec76c0d5207e1d9c0c9b0022a82
+w
+Gsrc/main/java/org/practice/cpdsa/binary_search/application/Heaters.java,8\b\8b9cde7f62be96c75110ee3c87dba8daf49bf944
+n
+>src/main/java/org/practice/cpdsa/array/FractionalKnapsack.java,e\e\ee51ae7bedc11aefedb11396602375ac5edef17c

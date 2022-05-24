@@ -2,7 +2,7 @@ package org.practice.cpdsa.array.important;
 
 import java.util.Arrays;
 // https://www.youtube.com/watch?v=NgLeC7DeWn4
-public class MooseVotingAlgorithm {
+public class MooreVotingAlgorithm {
 
     public static void main(String[] args) {
         int[] arr = new int[]{7, 7, 5, 7, 5, 1, 5, 7, 5, 5, 7, 7, 5, 5, 5, 5};
