@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class NMeetingsInOneRoom {
 
+    /**                      i
+     * start[] = {1,3,0,5,8,5}
+     * end[] =  {2,4,6,7,9,9}
+     *                  j
+     * count = 4;
+     */
+
     record Meeting(Integer startTime, int endTime) { }
 
     public static void main(String[] args) {
@@ -27,8 +34,8 @@ public class NMeetingsInOneRoom {
         int numberOfMeetingPossible = 1;
 
         Arrays.sort(meeting, (m1, m2) -> {
-            if(m1.endTime == m2.endTime()) return Integer.compare(m1.startTime, m2.startTime);
-            return Integer.compare(m1.endTime(), m2.endTime());
+            if(m1.endTime == m2.endTime) return Integer.compare(m1.startTime, m2.startTime);
+            return Integer.compare(m1.endTime, m2.endTime);
         });
 
         int i = 1;
