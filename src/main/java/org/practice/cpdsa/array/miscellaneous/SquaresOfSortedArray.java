@@ -4,16 +4,20 @@ import java.util.Arrays;
 
 public class SquaresOfSortedArray {
 
-    public static int[] sortSquaredArray(int[] a){
+    public static int[] sortSquaredArray(int[] a) {
+
         int[] b = new int[a.length];
         int index = a.length -1;
-        int i = 0, j=a.length -1;
-        while(i<j){
+
+        int i = 0;
+        int j = a.length -1;
+
+        while(i < j) {
             int x;
-            if(Math.abs(a[i]) <= Math.abs(a[j])){
+            if(Math.abs(a[i]) <= Math.abs(a[j])) {
                 x = a[j] * a[j];
                 j--;
-            }else{
+            } else {
                 x = a[i] * a[i];
                 i++;
             }

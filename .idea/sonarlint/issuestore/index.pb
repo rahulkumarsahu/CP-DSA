@@ -167,12 +167,8 @@ w
 Gsrc/main/java/org/practice/cpdsa/binary_search/application/Heaters.java,8\b\8b9cde7f62be96c75110ee3c87dba8daf49bf944
 }
 Msrc/main/java/org/practice/cpdsa/array/important/MinimumPlatformRequired.java,e\7\e79f833392e73ccdd16c425b4e06b3d733221688
-q
-Asrc/main/java/org/practice/cpdsa/array/miscellaneous/SmartTV.java,3\f\3f6de71c12248c21c1557c3aecf80a6da28ab159
 z
 Jsrc/main/java/org/practice/cpdsa/array/important/MooreVotingAlgorithm.java,1\6\16333f16b214f37a8759fb5dac076e5f369575bd
-~
-Nsrc/main/java/org/practice/cpdsa/array/miscellaneous/SquaresOfSortedArray.java,9\f\9f22cb3895e799af74d5f2494e36baf350ebe5b9
 w
 Gsrc/main/java/org/practice/cpdsa/array/miscellaneous/RangeAddition.java,6\9\6939be4c4429a270559807c3b34f85782d6340d4
 `
@@ -181,3 +177,9 @@ n
 >src/main/java/org/practice/cpdsa/array/FractionalKnapsack.java,e\e\ee51ae7bedc11aefedb11396602375ac5edef17c
 z
 Jsrc/main/java/org/practice/cpdsa/array/miscellaneous/BoatToSavePeople.java,0\1\0125aa4b8f75bfa3e6c89003e2a9970bac95bdac
+
+Osrc/main/java/org/practice/cpdsa/array/miscellaneous/ArrowsToBurstBalloons.java,a\5\a569515a742d93e7bfe289d6fb45a1e6e54dcc54
+|
+Lsrc/main/java/org/practice/cpdsa/array/miscellaneous/NMeetingsInOneRoom.java,7\8\7882e5be4e0f511f78b19c3a51fd78b1ea750cf8
+f
+6src/main/java/org/practice/cpdsa/array/WeirdStock.java,9\e\9e13ab8843e047b5c3f6a011129b1b5a8ee4df3f
