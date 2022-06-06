@@ -1,5 +1,11 @@
 package org.practice.cpdsa.sorting;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Stack;
+import java.util.stream.Collectors;
+
 //compare the adjacent element if value is minimum than swap
 // again we will compare the adjacent element from starting
 // Complexity O(N^2)
@@ -26,8 +32,33 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] listToSort = new int[]{ 4, 5, 6, 9, 8, 3, 1, 2, 0, 7 };
+        int[] listToSort = new int[]{ 3, 2, 4, 1, 5};
         Helper.print(listToSort);
         bubbleSort(listToSort);
+    }
+
+    void kTop(node[] arr, int n) {
+        Arrays.sort(arr, (a, b) -> {
+
+            if(a.marks == b.marks) return Integer.compare(a.index, b.index);
+
+            return Integer.compare(b.marks, a.marks);
+        });
+
+
+    }
+
+    class node
+    {
+        int marks;
+        int index;
+        public void setMarks(int a)
+        {
+            this.marks=a;
+        }
+        public void setIndex(int b)
+        {
+            this.index=b;
+        }
     }
 }
