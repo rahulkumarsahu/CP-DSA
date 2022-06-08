@@ -1,4 +1,4 @@
-package org.practice.cpdsa.array;
+package org.practice.cpdsa.array.miscellaneous;
 
 import java.util.ArrayList;
 import java.util.Arrays;
