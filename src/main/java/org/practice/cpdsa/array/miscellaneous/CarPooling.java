@@ -1,8 +1,6 @@
 package org.practice.cpdsa.array.miscellaneous;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class CarPooling {
@@ -52,4 +50,33 @@ public class CarPooling {
         return true;
     }
 
+    public boolean carPooling3(int[][] trips, int capacity) {
+        // sorting by start position because car moves only in one direction
+        Arrays.sort(trips, Comparator.comparingInt(a -> a[1]));
+        PriorityQueue<int[]> endPositionPQ = new PriorityQueue<>(Comparator.comparingInt(a -> a[2]));
+        int passengers = 0;
+
+        for (int[] trip : trips) {
+            // taking current start position
+            int currentStartPosition = trip[1];
+            // here pq is not empty and current start position is greater than the end position of current trip
+            // that means we have to drop some passengers
+            // array is sorted
+            // overlapping check
+            while (!endPositionPQ.isEmpty() && currentStartPosition >= endPositionPQ.peek()[2]) {
+                passengers -= endPositionPQ.poll()[0];
+            }
+            passengers += trip[0];
+            endPositionPQ.add(trip);
+            // 3 2 7-8 3 9-3 7 9-2 10 12
+            // 327 - 839 -> 3 > 7 No -> 11
+            //pq = 327-839
+            // 379 -> 7 >= 7 > true 11 - 3 -> drop 327
+            // pq839
+            if (passengers > capacity) return false;
+
+        }
+
+        return true;
+    }
 }
