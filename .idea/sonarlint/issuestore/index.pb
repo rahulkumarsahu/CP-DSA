@@ -39,8 +39,6 @@ r
 Bsrc/main/java/org/practice/cpdsa/linkedlist/LinkedListFlatten.java,b\2\b21319404d6922c2e08050a6935d2560141a1bb5
 a
 1src/main/java/org/practice/cpdsa/queue/Queue.java,b\4\b4147aa88483455961e78b7bc3830b21266e4754
-f
-6src/main/java/org/practice/cpdsa/CPDSAApplication.java,7\8\7893870b8bcd466a88278602787de0d5d2fa7784
 i
 9src/main/java/org/practice/cpdsa/linkedlist/LRUCache.java,3\f\3f879cabb15e03eea4250da78edfbfbc8b3c8622
 q
@@ -95,14 +93,8 @@ Psrc/main/java/org/practice/cpdsa/heaps/application/MaximumMinimumDifference.jav
 Ksrc/main/java/org/practice/cpdsa/heaps/application/TopKFrequentElement.java,7\e\7eb67d52666c8dcabb1d750f3a3fe9c7c2c8404c
 s
 Csrc/main/java/org/practice/cpdsa/heaps/application/KMaximumSum.java,5\9\593fe8a8e442c2842edfe74771cd68a83d64ced9
-j
-:src/main/java/org/practice/cpdsa/company/AmazonKindle.java,7\a\7af4ec255ab08caa09e57cdc0249b65e98e0c7f9
-{
-Ksrc/main/java/org/practice/cpdsa/company/MinimumNumberCountToMakeEqual.java,2\d\2d101bdb891b90dffa75a1e96b1f7a6e55eb5304
 Z
 *src/main/java/org/practice/cpdsa/notes.txt,c\c\cc41c40babaad73652e2fa2cdda7bb6cb7c67cb8
-]
--src/main/java/org/practice/cpdsa/Testing.java,c\c\cc8634431d90dd7a8f9a6f3dec6e75766133392b
 o
 ?src/main/java/org/practice/cpdsa/strings/LongestPalindrome.java,6\9\6972df67b09d344bb2dff912e5c6762411d2f588
 u
@@ -117,8 +109,6 @@ Msrc/main/java/org/practice/cpdsa/array/slidingwindow/FirstNegativeNumber.java,
 Ssrc/main/java/org/practice/cpdsa/array/slidingwindow/CountOccurrencesOfAnagram.java,b\9\b9c10bb7c530439dc0f5243a23f469c4f2b591b7
 ~
 Nsrc/main/java/org/practice/cpdsa/binary_search/application/FindSquareRoot.java,c\1\c1725d61c9b204a2ad09c0b6075987da685efbff
-€
-Psrc/main/java/org/practice/cpdsa/binary_search/application/FindPivotElement.java,a\5\a5c560a468afc393c0f5135949777620cb3252dd
 ‚
 Rsrc/main/java/org/practice/cpdsa/binary_search/application/SearchRotatedArray.java,2\a\2a1a5d9a3f6841129dcc32da952e1a3d3d76eb71
 s
@@ -133,8 +123,6 @@ Qsrc/main/java/org/practice/cpdsa/binary_search/application/MinimumDifference.ja
 Qsrc/main/java/org/practice/cpdsa/binary_search/application/NearlySortedArray.java,f\5\f54b4afb7825d3c2d61f5d0c613a5a3aec28c72d
 p
 @src/main/java/org/practice/cpdsa/array/matrix/SetMatrixZero.java,c\d\cd70e67098f1bb39c62d13e257e859552b76b239
-~
-Nsrc/main/java/org/practice/cpdsa/binary_search/application/BeautifulArray.java,a\2\a2544ddfa8b1420fd2b37953e8402a7788549790
 †
 Vsrc/main/java/org/practice/cpdsa/binary_search/application/SearchingInfiniteArray.java,2\8\28ca412e191942972ce40f7ab0ace4c0ce615809
 ‰
@@ -143,10 +131,6 @@ Ysrc/main/java/org/practice/cpdsa/binary_search/application/InfiniteBinarySorted
 Nsrc/main/java/org/practice/cpdsa/binary_search/application/SPOJEKOProblem.java,b\f\bf34b604f1cb764d278b9c3ff2d04199b05bdc25
 o
 ?src/main/java/org/practice/cpdsa/array/matrix/SpiralMatrix.java,9\4\948398779e046c53ae1d26236fc9daa7c959f9cf
-…
-Usrc/main/java/org/practice/cpdsa/binary_search/application/AggressiveCowsProblem.java,a\7\a78252a3b3c00881f92ad9ff92f9ac74bcaf5d0a
-…
-Usrc/main/java/org/practice/cpdsa/binary_search/application/BookAllocationProblem.java,5\e\5e28b6ec194a9121ff3e101a33daa460b58080ac
 €
 Psrc/main/java/org/practice/cpdsa/array/slidingwindow/MaximumFromAllSubArray.java,8\e\8edfcfcbc6ce117fb7248155a65bc7d0bf68e5ae
 ~
@@ -215,8 +199,6 @@ t
 Dsrc/main/java/org/practice/cpdsa/array/important/FloydsTriangle.java,b\0\b0f0dc401d7adf91be1ec203de45772db01a631e
 u
 Esrc/main/java/org/practice/cpdsa/array/important/BuyAndSellStock.java,6\1\61b0b590778239edea6d22b8189eec8af971ad13
-x
-Hsrc/main/java/org/practice/cpdsa/array/miscellaneous/InsertInterval.java,8\7\873cbf0b263c0950914b1e3e84582055a947c058
 e
 5src/main/java/org/practice/cpdsa/array/MergeSort.java,b\c\bc0d60ece8e6375e61d35d57f2905f5e65c81959
 €

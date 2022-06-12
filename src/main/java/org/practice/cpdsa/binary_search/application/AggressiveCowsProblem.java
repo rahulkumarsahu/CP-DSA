@@ -1,7 +1,6 @@
 package org.practice.cpdsa.binary_search.application;
 
 import java.util.Arrays;
-import java.util.OptionalInt;
 
 public class AggressiveCowsProblem {
 
