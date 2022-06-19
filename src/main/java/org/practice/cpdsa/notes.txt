@@ -1,0 +1,2 @@
+command + N -> creating
+command + O -> searching
