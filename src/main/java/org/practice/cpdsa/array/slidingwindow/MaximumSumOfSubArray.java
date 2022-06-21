@@ -11,7 +11,7 @@ public class MaximumSumOfSubArray {
         int data = longestSubStringWithUniqueCharacter();
         System.out.println(data);
 
-       
+
         int subString = minimumWindowSubstring("time to practice", "toc");
         System.out.println(subString);
     }
