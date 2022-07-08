@@ -6,7 +6,8 @@ public class NextGreaterElement2 {
     public static void main(String[] args) {
         nextGreaterElements(new int[]{20, 15, 10, 5});
     }
-
+    // another approach is to take one array of double size and assign value like
+    // 20 15 10 5 10 15 10 5 and find first greater from right side and print the output of first N element
     public static int[] nextGreaterElements(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
