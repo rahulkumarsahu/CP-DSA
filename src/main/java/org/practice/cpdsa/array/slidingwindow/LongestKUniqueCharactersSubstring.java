@@ -6,7 +6,8 @@ import java.util.Map;
 public class LongestKUniqueCharactersSubstring {
 
     public static void main(String[] args) {
-        int out = longestSubString("aaabb", 3);
+        int out = longestSubString("aaabb", 2);
+        // 11122  2
         System.out.println(out);
     }
 
