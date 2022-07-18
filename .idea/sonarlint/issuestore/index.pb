@@ -161,8 +161,6 @@ Jsrc/main/java/org/practice/cpdsa/array/miscellaneous/BoatToSavePeople.java,0\1
 Lsrc/main/java/org/practice/cpdsa/array/miscellaneous/NMeetingsInOneRoom.java,7\8\7882e5be4e0f511f78b19c3a51fd78b1ea750cf8
 Ä
 Psrc/main/java/org/practice/cpdsa/array/important/DutchNationalFlagAlgorithm.java,8\0\80a965ede39f981cf2c783ff37f504552b27a106
-w
-Gsrc/main/java/org/practice/cpdsa/array/important/TrappingRainWater.java,5\4\54ec8b245d5c7a3741e31d64a8d23a990e953518
 Å
 Qsrc/main/java/org/practice/cpdsa/array/miscellaneous/BrightestPositionStreet.java,a\9\a95663623a03d376104bb82527c02f8b136bdd0d
 Ñ
@@ -221,8 +219,6 @@ Hsrc/main/java/org/practice/cpdsa/array/miscellaneous/InsertInterval.java,8\7\8
 Qsrc/main/java/org/practice/cpdsa/array/miscellaneous/MaximumSumConfiguration.java,a\5\a5f83aef7489fda4597be3817bf4b357a2f57c07
 z
 Jsrc/main/java/org/practice/cpdsa/array/important/MooreVotingAlgorithm.java,1\6\16333f16b214f37a8759fb5dac076e5f369575bd
-l
-<src/main/java/org/practice/cpdsa/stack/CelebrityProblem.java,1\c\1c3de1ae230b75f6a9fa30913bd07913218a44bd
 h
 8src/main/java/org/practice/cpdsa/stack/CircularTour.java,4\2\42a4ac288fa83a4f355547731c7179e626a94360
 c
@@ -269,7 +265,3 @@ r
 Bsrc/main/java/org/practice/cpdsa/stack/StackOverFlowException.java,2\f\2fae1ab8cf470fe371401232550a87921297520f
 a
 1src/main/java/org/practice/cpdsa/stack/Stack.java,9\5\95347e0dbfb72b0c219711ef8f6119099a73260b
-p
-@src/main/java/org/practice/cpdsa/stack/MaximumAreaHistogram.java,4\e\4ecdb951ab1138b64811b99cf5ec648afdc4ef1d
-f
-6src/main/java/org/practice/cpdsa/stack/Pattern132.java,e\6\e621d4360f517b2c710d7d7553791dc1ebadb10e
