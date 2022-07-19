@@ -10,7 +10,7 @@ public class FruitIntoBasket {
         int i = 0;
         int j = 0;
 
-        int max = Integer.MIN_VALUE;
+        int max = 0;
 
         Map<Integer, Integer> map = new HashMap<>();
 

@@ -4,8 +4,37 @@ public class TrappingRainWater {
 
     public static void main(String[] args) {
         int output = trappingRainWater(new int[]{3,1,2,4,0,1,3,2});
+        int result = trappingRainWater1(new int[]{3,1,2,4,0,1,3,2});
         System.out.println(output);
+        System.out.println(result);
 
+    }
+
+    private static int trappingRainWater1(int[] arr) {
+
+        int a = 0;
+        int b = arr.length - 1;
+        int ans = 0;
+
+        int leftMax = Integer.MIN_VALUE;
+        int rightMax = Integer.MIN_VALUE;
+
+        while(a <= b) {
+
+            leftMax = Math.max(leftMax, arr[a]);
+            rightMax = Math.max(rightMax, arr[b]);
+
+            if(leftMax < rightMax) {
+                ans += (leftMax - arr[a]);
+                a++;
+            } else {
+                ans += (rightMax - arr[b]);
+                b--;
+            }
+
+        }
+
+        return ans;
     }
 
     public static int trappingRainWater(int[] arr) {
