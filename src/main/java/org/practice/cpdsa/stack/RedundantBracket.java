@@ -40,4 +40,4 @@ maintain flag to check redundancy.
 
 // inp3 = (a) == redundant (no operation) st= (
 
-// inp4 = (a+c*b)+(c)) == redudant*
+// inp4 = (a+c*b)+(c)) == redudant*/
