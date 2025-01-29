@@ -10,7 +10,6 @@ public class ArrangingCoins {
         // be set to a complete row, so we return "end"
         int start = 0;
         int end = n;
-
         while (start <= end) {
 
             int mid = start + (end - start) / 2;

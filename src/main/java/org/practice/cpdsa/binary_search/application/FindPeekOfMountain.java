@@ -3,7 +3,7 @@ package org.practice.cpdsa.binary_search.application;
 public class FindPeekOfMountain {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{5, 6, 7, 8, 9, 3, 2, 1};
+        int[] arr = new int[]{5, 5, 5, 5};
         int peekOfMountain = findPeekOfMountain(arr);
         System.out.println("The Peek of Mountain index is :- " + peekOfMountain);
     }
